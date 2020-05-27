@@ -1,0 +1,136 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.container {
+  background-color: #245076;
+  width: 970px;
+  min-height: 450px;
+  margin: auto;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* Space evenly */
+.header,
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+.header img {
+  width: 500px;
+}
+.header-right p {
+  color: white;
+  margin-left: 100px;
+}
+.header-right a {
+  color: #ae9d1a;
+}
+.searchbox {
+  background-color: #444444;
+  width: 325px;
+  border-radius: 12px;
+  box-shadow: 3px 3px;
+  text-align: center;
+  padding: 20px;
+}
+.searchbox input {
+  height: 30px;
+  width: 175px;
+  text-align: center;
+}
+.searchbox button {
+  background-color: #245076;
+  color: white;
+  height: 30px;
+  width: 40px;
+  border-radius: 6px;
+}
+.navbar {
+  display: flex;
+  justify-content: space-evenly;
+  width: 750px;
+  margin: auto;
+  padding: 10px 20px;
+  background-image: linear-gradient(#3575ad, #497fad, #3575ad);
+  border-radius: 4px;
+  box-shadow: 3px 3px;
+}
+.navbar h2 {
+  color: white;
+}
+.top-content {
+  padding: 20px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.bullet-arrow {
+  color: #f6cf31;
+  font-size: xx-small;
+  vertical-align: middle;
+}
+.top-content ul {
+  list-style: none;
+  width: 200px;
+}
+.top-content li {
+  text-align: center;
+  margin: 10px;
+}
+.top-content a {
+  color: white;
+}
+.top-content-text {
+  width: 500px;
+  min-height: 200px;
+  text-align: center;
+  color: white;
+}
+.motto {
+  color: #f6cf31;
+  font-style: italic;
+  font-size: large;
+  margin: 10px;
+}
+.pagetop {
+  border-bottom: solid black 3px;
+  padding: 20px;
+}
+.content-stripe {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+}
+.stripebox {
+  width: 400px;
+  text-align: center;
+  border-top: solid #73a7d5 5px;
+  margin: 10px;
+}
+.stripebox a {
+  color: #abcae6;
+  text-decoration: none;
+}
+.stripebox ul {
+  margin-left: 30px;
+  list-style-type: square;
+}
+.footer {
+  background-image: linear-gradient(#245076, #3f7db2);
+  min-height: 100px;
+}
+.footer h3 {
+  display: inline-block;
+  margin: 20px;
+  color: #7aadda;
+}
+.footer p {
+  text-align: center;
+  color: #7aadda;
+  font-size: smaller;
+}
+.footer-text {
+  display: flex;
+  justify-content: center;
+}
