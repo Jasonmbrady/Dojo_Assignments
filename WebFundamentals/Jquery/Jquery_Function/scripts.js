@@ -3,7 +3,5 @@ $(document).ready(function () {
     $(this).hide();
   });
 
-  $("img").click(function () {
-    console.log($(this).attr("src"));
-  });
+  console.log($("img").attr("src"));
 });
